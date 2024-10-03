@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.pai{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.pai h1{
+    font-weight: bold;
+}
+
+.bikes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #131e2699;
+}
+
+.texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.preco{
+    display: flex;
+}
